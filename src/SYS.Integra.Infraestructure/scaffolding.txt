@@ -1,0 +1,1 @@
+dotnet ef dbcontext scaffold "DATA SOURCE=srv-hml01:1521/ORCLCDB;USER ID=usrEmpresa; PASSWORD=M4st8R; User ID=usrEmpresa; Password=M4st8R;" Oracle.EntityFrameWorkCore -o .\src\SYS.Integra.Domain\Entities\ --force

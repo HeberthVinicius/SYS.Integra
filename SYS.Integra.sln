@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34322.80
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SYS.Integra", "SYS.Integra.csproj", "{A888F0B8-3987-4FB3-B617-D9F53CAFB6D9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{9634801B-823A-4916-876F-332DB37548C8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{DD3E28C5-E877-4A5C-BDE9-ABF5FE024315}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmailService", "EmailService\EmailService.csproj", "{803106D4-FE35-4F1C-83C1-EA6444249EDB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A888F0B8-3987-4FB3-B617-D9F53CAFB6D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A888F0B8-3987-4FB3-B617-D9F53CAFB6D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A888F0B8-3987-4FB3-B617-D9F53CAFB6D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A888F0B8-3987-4FB3-B617-D9F53CAFB6D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{803106D4-FE35-4F1C-83C1-EA6444249EDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{803106D4-FE35-4F1C-83C1-EA6444249EDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{803106D4-FE35-4F1C-83C1-EA6444249EDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{803106D4-FE35-4F1C-83C1-EA6444249EDB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A888F0B8-3987-4FB3-B617-D9F53CAFB6D9} = {9634801B-823A-4916-876F-332DB37548C8}
+		{803106D4-FE35-4F1C-83C1-EA6444249EDB} = {DD3E28C5-E877-4A5C-BDE9-ABF5FE024315}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {88004EA0-C753-4F84-8524-6EE5A57136C6}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,9 @@
+﻿*.v2
+*.vsidx
+*.suo
+*.dll
+obj/Debug
+obj
+.vs
+bin
+.idea
